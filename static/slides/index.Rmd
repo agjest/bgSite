@@ -1,0 +1,11 @@
+---
+title: "Slides"
+output:
+  html_document:
+    df_print: paged
+---
+
+-   [EDA](EDA/eda.html "EDA")
+-   [maps and
+    proj](map_and_proj_pres/map_and_proj_pres.html "maps and proj")
+

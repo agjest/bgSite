@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+{{.Content}}
+<ul>
+{{ range .Pages }}
+  <li><a href="{{.URL}}">{{.Title}}</a></li>
+  {{end}}
+</ul>
+</main>
+
+{{ partial "footer.html" . }}
